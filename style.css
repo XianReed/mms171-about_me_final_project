@@ -1,0 +1,89 @@
+body{ margin: 0;
+background-color: #1f271b;
+color: #363B1C;
+font-family: Georgia, "times New Roman", serif;
+font-size: 1rem;
+line-height: 1.6;}
+
+header {background-color:#1F271B; color:#CACFB0;
+ padding: 4rem 1.5rem;
+ text-align: center;
+ border-bottom: 3px solid #BAC095;}
+ 
+ h1{color: #CACFB0; font-size: 2.5rem; margin: 0 0 0.5rem;}
+ 
+ header p {font-size: 1rem;}
+
+ main {width: 95%;
+ max-width: 1200px;
+ margin: 2rem auto;}
+ 
+
+ section{ background-color: #BAC095;
+ padding: 5rem;
+ margin-bottom: 1.5rem;
+ border: 1px solid #D1C4B8;
+ border-radius: 1rem;}
+ 
+
+ h2 {color: #1F271B;
+ font-size: 1rem;
+ margin-top: 0;}
+ 
+ h3{font-size: 1rem; color: 1F271B}
+ 
+
+.about-container{display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 2rem;}
+ 
+.about-text {flex: 2;
+min-width: 0;}
+.about-image {flex: 1;
+min-width: 0;}
+.about-image img{ display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #D1C4B8;
+	border-radius: 0.5rem;}
+
+
+section img {max-width: 100%;
+height: auto;}
+
+
+a {color: #CACFB0;}
+a:hover {color: #1F271B;}
+.portfolio-card a {display: block; text-align: center; margin-top: 1rem;}
+
+.email-link {color: #363B1C;font-weight: normal;text-decoration: underline;}
+	
+
+footer{background-color:#363B1C; color:#CACFB0;
+ padding: 2rem 1.5rem;
+ text-align: center;
+ border-bottom: 3px solid #BAC095;}
+.portfolio-card{background-color: #363B1C;
+ padding: 1rem;
+ margin-bottom: 2rem;
+ border: 1px solid #8a9075;
+ border-radius: 0.5rem;
+ min-width: 0;}
+.portfolio-card img {display: block;
+ width: 100%;
+ height: 350px;
+ object-fit: cover;}
+ 
+@media screen and (max-width: 600px) {
+.about-container {display: flex;flex-direction: column; align-items: stretch; gap: 1rem;}
+	.about-text,
+    .about-image {flex: none;width: 100%;min-width: 0;}
+    .about-image img {display: block;width: 100%;height: auto;}}
+	.portfolio-gallery { grid-template-columns: 1fr;}
+	
+
+body {font-family: "Redaction 10", Georgia, "Times New Roman", serif;}
+
+h1, h2, h3 {font-family: "Isometra", Georgia, "Times New Roman", serif; font-weight: 400;}
+

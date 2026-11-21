@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects>
+    <project>
+        <title>Photography Portfolio</title>
+        <description>
+            Some photos I took that I think are aesthetically pleasing and also where
+			I put my creativity skills and learning about compositions into taking photos.
+        </description>
+        <date>July 12, 2022 - Present</date>
+    </project>
+
+    <project>
+        <title>Videography Portfolio</title>
+        <description>
+            Taking videos is one thing I do when travelling and also where I preserve my experiences 
+			hapening and securing them to be recorded for future memories.
+        </description>
+        <date>July 12, 2022 - Present</date>
+    </project>
+
+    <project>
+        <title>TikTok Creative Content</title>
+        <description>
+            I created an account on TikTok to make my creation be seen by anyone,
+			and also this space is my space to share my cinematic creativity to inspire. 
+			and also connect with others who have the same interest as me.
+        </description>
+        <date>Jul 8, 2024 - August 17, 2026</date>
+    </project>
+
+</projects>
